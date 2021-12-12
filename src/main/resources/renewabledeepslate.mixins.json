@@ -1,12 +1,13 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "gay.quack.renewabledeepslate.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "CobbledDeepslateMixin",
+    "DeepslateMixin"
   ],
-  "client": [
-    "ExampleMixin"
+  "server": [
   ],
   "injectors": {
     "defaultRequire": 1
